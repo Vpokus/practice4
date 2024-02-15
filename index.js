@@ -1,3 +1,5 @@
+import { calculate_salary } from './calculate_salary.js';
+
 let worker1 = {
   name: 'Вася',
   role: 'worker',
@@ -31,4 +33,5 @@ for (let index = 0; index < employees.length; index = index + 1) {
   let salary = calculate_salary(employee.role);
   total_salary = total_salary + salary;
 }
+
 console.log(total_salary);
