@@ -6,5 +6,11 @@ export function calculate_salary(role) {
     salary = 1500;
   }
 
-  return salary;
+  if (role === 'accountant') {
+    salary = 2500;
+  } else {
+    salary = 1500;
+  }
 
+  return salary;
+}
